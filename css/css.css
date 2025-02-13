@@ -214,7 +214,7 @@ footer p {
 	height: auto;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 768px) {
 	.corpo {
 		margin-top: -24vh;
 	}
