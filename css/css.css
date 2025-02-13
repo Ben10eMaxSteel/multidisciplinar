@@ -1,0 +1,254 @@
+body {
+	margin: -0.0001vh;
+	font-family: 'Inter', sans-serif;
+}
+
+.header {
+	background-color: #8B8879;
+	height: 15vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.center {
+	width: 97%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.hq {
+	height: 100%;
+	width: 30%;
+	display: flex;
+	align-items: center;
+}
+
+#pag {
+	margin-top: 2%;
+	height: 80%;
+	width: auto;
+}
+
+.qt {
+	height: 100%;
+	width: 30%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.qt img {
+	height: 100%;
+	width: auto;
+}
+
+.menu {
+	height: 100%;
+	width: 30%;
+	display: flex;
+	align-items: center;
+	justify-content: right;
+}
+
+.menu img {
+	height: 45%;
+	width: auto;
+}
+
+#gatobalanco {
+	width: 20%;
+	margin-top: -5vh;
+	margin-left: -5vh;
+	position: relative;
+	z-index: -1;
+}
+
+.corpo {
+	margin-top: -36vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.corpo h1 {
+	color: #d7b286;
+	text-shadow: 3.5px 0px 0px #B58B63;
+	letter-spacing: 2px;
+}
+
+.blocao {
+	margin-top: 2vh;
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.pk {
+	background-color: #d7b286;
+	width: 20%;
+	height: 46vh;
+	display: flex;
+	flex-direction: column;
+	color: white;
+}
+
+.pk h2 {
+	color: black;
+	text-align: center;
+	background-color: #859EAA;
+	padding: 2%;
+	margin-left: 10%;
+	margin-right: 10%;
+	border-radius: 5px;
+}
+
+.pk p {
+	margin-top: -2vh;
+	font-size: large;
+	padding: 1vh;
+}
+
+#matematicas {
+	font-size: small;
+}
+
+.osdois {
+	width: 100%;
+	height: 8vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	text-align: center;
+	font-weight: bold;
+	font-size: xx-large;
+}
+
+.pequeno {
+	background-color: #3B714F;
+	width: 30%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.grande {
+	background-color: #B58B63;
+	width: 70%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#saba {
+	color: #4C5C6D;
+	text-shadow: 3.5px 0px 0px #859EAA;
+}
+
+.dois2 {
+	width: 80%;
+	height: 35vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center	;
+}
+
+.saibamais {
+	background-color: #B58B63;
+	width: 73.3%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.vidio {
+	margin-left: 2%;
+	background-color: #d7b286;
+	height: 90%;
+	width: 60%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.saibamais img {
+	height: 90%;
+}
+
+#gatose {
+	height: 70%;
+}
+
+footer {
+	margin-top: 5vh;
+	height: 8vh;
+	background-color: #8B8879;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1%;
+}
+
+footer img {
+	height: 70%;
+	width: auto;
+}
+
+footer p {
+	font-weight: bold;
+	font-size: x-large;
+}
+
+.hqprincipal {
+	margin-top: 20vh;
+	width: 80%;
+	background-color: aquamarine;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.quadrinho {
+	width: 50%;
+	height: auto;
+}
+
+@media (max-width: 768px) {
+	.corpo {
+		margin-top: -24vh;
+	}
+
+	#gatobalanco {
+		width: 30%;
+	}
+
+	.blocao {
+		flex-wrap: wrap;
+	}
+
+	.pk {
+		width: 45%;
+		margin-bottom: 10vh;
+	}
+
+	#saba {
+		margin-top: -6vh;
+	}
+
+	#gatose {
+		display: none;
+	}
+
+	.saibamais {
+		width: 100%;
+	}
+
+	.hqprincipal {
+		margin-top: 6vh;
+	}
+
+	.quadrinho {
+		width: 100%;
+	}
+}
